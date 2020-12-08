@@ -3,8 +3,6 @@ arr = []
 for line in case:
     arr.append(line.split())
 
-print(arr)
-
 
 def sor(e):
     return int(e[8]) - int(e[9])
@@ -13,5 +11,5 @@ def sor(e):
 arr.sort(key=sor)
 
 for line in arr:
-    print(line)
+    print(line[0] + " " + str(int(line[9]) - int(line[8])) + " population growth from 2010-2015")
 
