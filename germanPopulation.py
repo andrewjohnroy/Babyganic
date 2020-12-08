@@ -7,7 +7,7 @@ print(arr)
 
 
 def sor(e):
-    return int(e[9]) - int(e[8])
+    return int(e[8]) - int(e[9])
 
 
 arr.sort(key=sor)
