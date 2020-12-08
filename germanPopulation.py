@@ -12,6 +12,6 @@ def sor(e):
 
 arr.sort(key=sor)
 
-for line in sort:
+for line in arr:
     print(line)
 
